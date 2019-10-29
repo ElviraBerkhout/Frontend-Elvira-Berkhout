@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
@@ -7,14 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&display=swap" rel="stylesheet">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
+
 <body>
-   
-     <header>
+    <header>
         <nav>
             <a href="index.html">
-               <img class="eb_image" src="img/logoElvira.png" alt="Logo Elvira Berkhout">
-            </a>
-            
+                    <img class="eb_image" src="img/logoElvira.png" alt="Logo Elvira Berkhout">
+                </a>
+
             <ul>
                 <li>
                     <a href="portfolio.html">Portfolio</a>
@@ -27,45 +28,41 @@
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
-
             </ul>
         </nav>
     </header>
-    <article>
-    <h1>Een vraagje</h1>
-    <p> Mocht je toch met vragen achterblijven, stuur mij gerust een berichtje. </p>
+
+
+    <article class="vraagje">
+        <h1>Een vraagje</h1>
+        <p> Mocht je toch met vragen achterblijven, stuur mij gerust een berichtje. </p>
     </article>
-    
-    
-<form id="contact-form" action="" method='post'>
-   <div id='error'></div>
-    <fieldset>
-       <legend>Persoonlijke gegevens</legend>
-        <label for="name">Voornaam</label>
-        <input id="name" required type="text" placeholder="Elvira">
-        
-        <label for="surname">Achternaam</label>
-        <input id="surname" required type="text" placeholder="Berkhout">
-        <label for="mail">Emailadres</label>
-        <input type="text" id="mail" type="email" placeholder="elviraberkhout@gmail.com">
-        <p class="feedback">Goed bezig!</p>
-    </fieldset>
-       
-       <fieldset>
-       <legend>Bericht</legend>
-        <label for="text">Schrijf hier je comment</label>
-       <textarea placeholder="Schrijf hier je bericht"></textarea>
-        <button for='submit'>Verstuur</button>
-    </fieldset>
-      
 
+    <form id="contact-form" action="" method='post'>
+        <div id='error'></div>
+        <fieldset>
+            <legend>Persoonlijke gegevens</legend>
+            <label for="name">Voornaam</label>
+            <input id="name" required type="text" placeholder="Elvira">
 
-   
+            <label for="surname">Achternaam</label>
+            <input id="surname" required type="text" placeholder="Berkhout">
+            <label for="mail">Emailadres</label>
+            <input type="text" id="mail" type="email" placeholder="elviraberkhout@gmail.com">
+            <p class="feedback">Goed bezig!</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Bericht</legend>
+            <label for="text">Schrijf hier je bericht</label>
+            <textarea placeholder="Lucht hier je hart!"></textarea>
+            <button for='submit'>Verstuur</button>
+        </fieldset>
+    </form>
 
 
 
-</form>
-  
-  <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
